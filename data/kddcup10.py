@@ -6,8 +6,7 @@ import gzip as gz
 class Kddcup:
     def __init__(self, filename):
         self.num_dim = 120
-        # self.num_points = 494021
-        self.num_points = 50000
+        self.num_points = 494021
         self.xy = []
         self.num_assign_points = 0
         self.num_train_points = 0
